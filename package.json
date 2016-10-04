@@ -1,0 +1,20 @@
+{
+  "name": "angular-app",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A starter project for AngularJS",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-coverage": "^1.1.1",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^0.3.8",
+    "karma-junit-reporter": "^0.4.1",
+    "karma-phantomjs-launcher": "^1.0.2"
+  }
+}
