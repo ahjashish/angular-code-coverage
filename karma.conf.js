@@ -32,14 +32,21 @@ module.exports = function (config) {
             type : 'html',
             dir : 'coverage/'
         },
-
+        
+        singleRun = true;
+        
+        reporters = ['dots', 'junit'];
+        
+        junitReporter = {
+            outputFile: 'test-results.xml'
+        };
         // web server port
-        port: 9876,
+        port: 9876
 
-        junitReporter: {
+        /*junitReporter: {
             outputFile: 'test_out/unit.xml',
             suite: 'unit'
-        }
+        }*/
 
     });
 };
