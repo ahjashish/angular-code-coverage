@@ -15,7 +15,7 @@ module.exports = function (config) {
 
         frameworks: ['jasmine'],
 
-        browsers: ['Chrome'],
+        browsers: ['PhantomJS'],
 
         preprocessors: {
             //'src/main/webapp/promotion/js/controllers/**/*.js' : 'coverage',
