@@ -19,7 +19,7 @@
         });
 
         it('should print message Hello World', function() {
-            expect(scope.message).toEqual('HelloWorld');
+            expect(scope.message).toEqual('Hello World');
         });
 
         // Test for message 2
