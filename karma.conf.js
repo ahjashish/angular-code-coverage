@@ -36,10 +36,12 @@ module.exports = function (config) {
         singleRun : true,
         
         reporters : ['dots', 'junit'],
-        
-        junitReporter : {
-            outputFile: 'test-results.xml'
+       
+        junitReporter    : {
+            outputFile: 'test-results.xml',
+            outputDir : 'target/surefire-reports/'
         },
+        
         // web server port
         port: 9876
 
